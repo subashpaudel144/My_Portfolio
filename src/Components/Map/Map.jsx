@@ -11,7 +11,7 @@ export default function Map() {
         <iframe
           style={{
             width: "100%",
-            height: "100%",
+            height: "90vh",
           }}
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=satdobato%20lalitpur%20nepal&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -20,7 +20,7 @@ export default function Map() {
           marginheight="0"
           marginwidth="0"
         ></iframe>
-      </div>    
+      </div>
     </div>
   )
 }
